@@ -76,4 +76,5 @@ public class TrafficManager : MonoBehaviour
             TrafficDespawn(traffic); 
         }
     }
+
 }

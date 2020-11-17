@@ -6,8 +6,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager GM;
  
-    public enum GameState {InitGame , GamePlay , LevelFail};
+    public enum GameState { InitGame , GamePlay , LevelFail };
     public GameState gameState;
+
     private void Awake()
     {
         if (GM) Destroy(GM);

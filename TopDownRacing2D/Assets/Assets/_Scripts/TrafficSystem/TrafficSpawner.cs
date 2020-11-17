@@ -88,4 +88,5 @@ public class TrafficSpawner : MonoBehaviour
             trafficManager.TrafficDespawn(collision.GetComponent<Traffic>());
         }
     }
+
 }
